@@ -17,4 +17,4 @@ def determine_mood(hp, ep, lp, g_logd24, g_logd48, g):
 # test with example values
 if __name__ == "__main__":
   mood = determine_mood(90, 90, 90, True, True, 110)
-  print(f"Echo's mood is: {mood}")
+  print(f"Echo is {mood}")
