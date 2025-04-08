@@ -1,5 +1,5 @@
 # mood logic tree itself
-def determine_mood(hp, ep, kp, g_logd24, g_logd48, g):
+def determine_mood(hp, ep, lp, g_logd24, g_logd48, g):
   if all(var is not None for var in [hp, ep, lp, g_logd24, g_logd48, g]):
     if hp >= 90 and ep >= 90 and lp >= 90 and g_logd24 and g <= 120:
       return "ecstatic"
